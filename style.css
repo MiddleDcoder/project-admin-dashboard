@@ -3,6 +3,7 @@
 :root {
   --primary-color: #4b1cff;
   --secondary-color: #844ffe;
+  --box-shadow-default: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 body {
@@ -13,8 +14,10 @@ body {
   box-sizing: border-box;
 }
 
+h3,
 h4 {
   margin: 0;
+  padding-bottom: 15px;
 }
 
 .container {
@@ -35,6 +38,8 @@ h4 {
 .main-content {
   display: grid;
   grid-template-columns: 2fr 1fr;
+  margin: 30px;
+  gap: 30px;
 }
 
 .content-projects {
@@ -45,7 +50,6 @@ h4 {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(min(450px, 100%), 1fr));
   gap: 30px;
-  padding: 30px;
 }
 
 .card {
@@ -54,7 +58,7 @@ h4 {
   flex-direction: column;
   justify-content: space-between;
   border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: var(--box-shadow-default);
   padding: 30px;
   border-left: 5px solid var(--primary-color);
 
@@ -90,4 +94,22 @@ h4 {
 
 img[src="/assets/icons/share-variant-outline.svg"] {
   rotate: 270deg;
+}
+
+.announcement-list h5 {
+  margin: 0;
+}
+
+.announcement-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 30px;
+  box-shadow: var(--box-shadow-default);
+  justify-content: center;
+}
+
+.announcement-item:not(:last-child) {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
 }
