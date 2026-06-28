@@ -4,6 +4,7 @@
   --primary-color: #4b1cff;
   --secondary-color: #844ffe;
   --box-shadow-default: 0 4px 8px rgba(0, 0, 0, 0.1);
+  --border-default: 8px;
 }
 
 body {
@@ -57,7 +58,7 @@ h4 {
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: space-between;
-  border-radius: 8px;
+  border-radius: var(--border-default);
   box-shadow: var(--box-shadow-default);
   padding: 30px;
   border-left: 5px solid var(--primary-color);
@@ -103,10 +104,10 @@ img[src="/assets/icons/share-variant-outline.svg"] {
 .announcement-list {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 30px;
   padding: 30px;
   box-shadow: var(--box-shadow-default);
-  justify-content: center;
+  border-radius: var(--border-default);
 }
 
 .announcement-item:not(:last-child) {
