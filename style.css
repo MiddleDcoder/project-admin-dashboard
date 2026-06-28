@@ -114,3 +114,30 @@ img[src="/assets/icons/share-variant-outline.svg"] {
   border-bottom: 1px solid #ccc;
   padding-bottom: 10px;
 }
+
+.trending-users {
+  display: grid;
+  grid-template-columns: 1fr;
+  box-shadow: var(--box-shadow-default);
+  border-radius: var(--border-default);
+  gap: 15px;
+  padding: 30px;
+}
+
+.user-card {
+  display: flex;
+  align-items: center;
+
+  & h5,
+  p {
+    margin: 0;
+    padding: 0 8px;
+  }
+}
+
+.user-card img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
