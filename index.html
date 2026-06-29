@@ -13,187 +13,218 @@
     <!-- Sidebar -->
     <div class="sidebar">
       <div class="logo">
-        <img src="logo.png" alt="Logo" />
+        <img src="/assets/icons/view-dashboard.svg" alt="Logo" style="width: 52px; height: 52px;" />
         <span>Dashboard<span>
       </div>
-      <div class="main-menu">
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Profile</a></li>
-          <li><a href="#">Messages</a></li>
-          <li><a href="#">History</a></li>
-          <li><a href="#">Task</a></li>
-          <li><a href="#">Communities</a></li>
-        </ul>
-      </div>
-      <div class="secondary-menu">
-        <ul>
-          <li><a href="#">Settings</a></li>
-          <li><a href="#">Support</a></li>
-          <li><a href="#">Privacy</a></li>
-        </ul>
-      </div>
+      <nav class="main-menu">
+
+        <a href="#"><img src="/assets/icons/home.svg" alt="Home" style="width: 28px; height: 28px;" />Home</a>
+        <a href="#"><img src="/assets/icons/card-account-details-outline.svg" alt="Profile"
+            style="width: 28px; height: 28px;" />Profile</a>
+        <a href="#"><img src="/assets/icons/message-reply.svg" alt="Messages"
+            style="width: 28px; height: 28px;" />Messages</a>
+        <a href="#"><img src="/assets/icons/history.svg" alt="History" style="width: 28px; height: 28px;" />History</a>
+        </>
+        <a href="#"><img src="/assets/icons/file-multiple.svg" alt="Task" style="width: 28px; height: 28px;" />Task</a>
+        </>
+        <a href="#"><img src="/assets/icons/account-group.svg" alt="Communities"
+            style="width: 28px; height: 28px;" />Communities</a></>
+
+      </nav>
+      <nav class="secondary-menu">
+        <a href="#"><img src="/assets/icons/cog.svg" alt="Settings" style="width: 28px; height: 28px;" />Settings</a>
+        <a href="#"><img src="/assets/icons/help-box.svg" alt="Support" style="width: 28px; height: 28px;" />Support</a>
+        <a href="#"><img src="/assets/icons/shield-check.svg" alt="Privacy"
+            style="width: 28px; height: 28px;" />Privacy</a>
+      </nav>
 
     </div>
     <!-- Header -->
     <div class="header">
-      <div class="search-bar">Item 1</div>
-      <div class="notifications">Item 2</div>
-      <div class="welcome">Item 3</div>
-      <div class="header-buttons">Item 4</div>
-    </div>
-    <!-- Main Content -->
-    <div class="main-content">
-      <div class="content-projects">
-        <h3>My Projects</h3>
-        <div class="project-cards">
-          <a class="card" href="https://middledcoder.github.io/basic-landing-page/" target="_blank">
-            <div class="card-content">
-              <h4>Basic Landing Page</h4>
-              <p>This is a simple, basic landing page designed for showcasing a product, service, or personal portfolio.
-                It features a clean UI, modern styling, and optimized performance.
+      <div class="search-bar"><img src="/assets/icons/magnify.svg" style="width: 28px; height: 28px;" /> <input
+          type="text"> </div>
+      <div class="notifications"><img src="/assets/icons/bell-ring-outline.svg" style="width: 28px; height: 28px;" />
+        <img src="/assets/avatars/Avatar01.svg" alt="profile" style="width: 50px; height: 50px;" />
+        <span class="name">Morgan Oakley</span>
+      </div>
+      <div class="welcome"> <img src="/assets/avatars/Avatar01.svg" alt="profile" style="width: 80px; height: 80px;" />
+        <span>Hi there,</span>
+        <h2>Morgan Oakley (@morgan)</h2>
+        <div class="header-buttons">
+          <button class="btn-actions"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <title>plus</title>
+              <path d="M19,13H13V19H11V13H5V11H11V5H13V11H19V13Z" />
+            </svg> New</button>
+          <button class="btn-actions"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <title>tray-arrow-up</title>
+              <path
+                d="M2 12H4V17H20V12H22V17C22 18.11 21.11 19 20 19H4C2.9 19 2 18.11 2 17V12M12 2L6.46 7.46L7.88 8.88L11 5.75V15H13V5.75L16.13 8.88L17.55 7.45L12 2Z" />
+            </svg> Upload</button>
+          <button class="btn-actions"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <title>export-variant</title>
+              <path
+                d="M12,1L8,5H11V14H13V5H16M18,23H6C4.89,23 4,22.1 4,21V9A2,2 0 0,1 6,7H9V9H6V21H18V9H15V7H18A2,2 0 0,1 20,9V21A2,2 0 0,1 18,23Z" />
+            </svg>Share</button>
+        </div>
+      </div>
+      <!-- Main Content -->
+      <div class="main-content">
+        <div class="content-projects">
+          <h3>My Projects</h3>
+          <div class="project-cards">
+            <a class="card" href="https://middledcoder.github.io/basic-landing-page/" target="_blank">
+              <div class="card-content">
+                <h4>Basic Landing Page</h4>
+                <p>This is a simple, basic landing page designed for showcasing a product, service, or personal
+                  portfolio.
+                  It features a clean UI, modern styling, and optimized performance.
+                </p>
+              </div>
+              <div class="card-reactions">
+                <button><img src="/assets/icons/star-plus-outline.svg" alt="Star" style="width:24px;height:24px" />
+                </button>
+                <button><img src="/assets/icons/eye-plus-outline.svg" alt="Star" style="width:24px;height:24px" />
+                </button>
+                <button><img src="/assets/icons/share-variant-outline.svg" alt="Star" style="width:24px;height:24px" />
+                </button>
+              </div>
+            </a>
+            <a class="card" href="https://middledcoder.github.io/Rock-Paper-Scissors/" target="_blank">
+              <div class="card-content">
+                <h4>
+                  Rock Paper Scissors</h4>
+                <p>This project is a web-based, interactive Rock Paper Scissors game featuring a main menu, customizable
+                  settings, and a 5-point victory condition against a computer opponent.</p>
+              </div>
+              <div class="card-reactions">
+                <button><img src="/assets/icons/star-plus-outline.svg" alt="Star" style="width:24px;height:24px" />
+                </button>
+                <button><img src="/assets/icons/eye-plus-outline.svg" alt="Star" style="width:24px;height:24px" />
+                </button>
+                <button><img src="/assets/icons/share-variant-outline.svg" alt="Star" style="width:24px;height:24px" />
+                </button>
+              </div>
+            </a>
+            <a class="card" href="https://middledcoder.github.io/Etch-a-Sketch/" target="_blank">
+              <div class="card-content">
+                <h4>Etch a Sketch</h4>
+                <p>This is a digital recreation of the classic Etch a Sketch toy, allowing users to create drawings
+                  using
+                  their mouse or touch screen.</p>
+              </div>
+              <div class="card-reactions">
+                <button><img src="/assets/icons/star-plus-outline.svg" alt="Star" style="width:24px;height:24px" />
+                </button>
+                <button><img src="/assets/icons/eye-plus-outline.svg" alt="Star" style="width:24px;height:24px" />
+                </button>
+                <button><img src="/assets/icons/share-variant-outline.svg" alt="Star"
+                    style="width:24px;height:24px" /></button>
+              </div>
+            </a>
+            <a class="card" href="https://middledcoder.github.io/calculator-v2/" target="_blank">
+              <div class="card-content">
+                <h4>
+                  Calculator with light & dark theme</h4>
+                <p>This is a simple calculator with the ability to switch between light and dark themes for a better
+                  user
+                  experience.</p>
+              </div>
+              <div class="card-reactions">
+                <button><img src="/assets/icons/star-plus-outline.svg" alt="Star" style="width:24px;height:24px" />
+                </button>
+                <button><img src="/assets/icons/eye-plus-outline.svg" alt="Star" style="width:24px;height:24px" />
+                </button>
+                <button><img src="/assets/icons/share-variant-outline.svg" alt="Star"
+                    style="width:24px;height:24px" /></button>
+              </div>
+            </a>
+            <a class="card" href="https://middledcoder.github.io/sign-up-form/" target="_blank">
+              <div class="card-content">
+                <h4>Sign-up Form</h4>
+                <p>This is a responsive sign-up form with validation for user registration.</p>
+              </div>
+              <div class="card-reactions">
+                <button><img src="/assets/icons/star-plus-outline.svg" alt="Star" style="width:24px;height:24px" />
+                </button>
+                <button><img src="/assets/icons/eye-plus-outline.svg" alt="Star" style="width:24px;height:24px" />
+                </button>
+                <button><img src="/assets/icons/share-variant-outline.svg" alt="Star"
+                    style="width:24px;height:24px" /></button>
+              </div>
+            </a>
+            <a class="card" href="https://middledcoder.github.io/admin-dashboard/" target="_blank">
+              <div class="card-content">
+                <h4>Admin Dashboard</h4>
+                <p>This is a basic admin dashboard for practicing Grid and flexbox layouts.</p>
+              </div>
+              <div class="card-reactions">
+                <button><img src="/assets/icons/star-plus-outline.svg" alt="Star" style="width:24px;height:24px" />
+                </button>
+                <button><img src="/assets/icons/eye-plus-outline.svg" alt="Star" style="width:24px;height:24px" />
+                </button>
+                <button><img src="/assets/icons/share-variant-outline.svg" alt="Star"
+                    style="width:24px;height:24px" /></button>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="content-announcements">
+          <h3>Announcements</h3>
+          <div class="announcement-list">
+            <div class="announcement-item">
+              <h5>Maintenance Scheduled</h5>
+              <p>We will be performing scheduled maintenance on our servers this weekend. Please expect some downtime.
               </p>
             </div>
-            <div class="card-reactions">
-              <button><img src="/assets/icons/star-plus-outline.svg" alt="Star" style="width:24px;height:24px" />
-              </button>
-              <button><img src="/assets/icons/eye-plus-outline.svg" alt="Star" style="width:24px;height:24px" />
-              </button>
-              <button><img src="/assets/icons/share-variant-outline.svg" alt="Star" style="width:24px;height:24px" />
-              </button>
+            <div class="announcement-item">
+              <h5>New Blog Post</h5>
+              <p>Check out our latest blog post on web development trends in 2024. Stay updated with the latest
+                insights!
+              </p>
             </div>
-          </a>
-          <a class="card" href="https://middledcoder.github.io/Rock-Paper-Scissors/" target="_blank">
-            <div class="card-content">
-              <h4>
-                Rock Paper Scissors</h4>
-              <p>This project is a web-based, interactive Rock Paper Scissors game featuring a main menu, customizable
-                settings, and a 5-point victory condition against a computer opponent.</p>
+            <div class="announcement-item">
+              <h5>New Feature Released!</h5>
+              <p>We are excited to announce the release of our new feature that will enhance your experience. Check it
+                out
+                now!</p>
             </div>
-            <div class="card-reactions">
-              <button><img src="/assets/icons/star-plus-outline.svg" alt="Star" style="width:24px;height:24px" />
-              </button>
-              <button><img src="/assets/icons/eye-plus-outline.svg" alt="Star" style="width:24px;height:24px" />
-              </button>
-              <button><img src="/assets/icons/share-variant-outline.svg" alt="Star" style="width:24px;height:24px" />
-              </button>
-            </div>
-          </a>
-          <a class="card" href="https://middledcoder.github.io/Etch-a-Sketch/" target="_blank">
-            <div class="card-content">
-              <h4>Etch a Sketch</h4>
-              <p>This is a digital recreation of the classic Etch a Sketch toy, allowing users to create drawings using
-                their mouse or touch screen.</p>
-            </div>
-            <div class="card-reactions">
-              <button><img src="/assets/icons/star-plus-outline.svg" alt="Star" style="width:24px;height:24px" />
-              </button>
-              <button><img src="/assets/icons/eye-plus-outline.svg" alt="Star" style="width:24px;height:24px" />
-              </button>
-              <button><img src="/assets/icons/share-variant-outline.svg" alt="Star"
-                  style="width:24px;height:24px" /></button>
-            </div>
-          </a>
-          <a class="card" href="https://middledcoder.github.io/calculator-v2/" target="_blank">
-            <div class="card-content">
-              <h4>
-                Calculator with light & dark theme</h4>
-              <p>This is a simple calculator with the ability to switch between light and dark themes for a better user
-                experience.</p>
-            </div>
-            <div class="card-reactions">
-              <button><img src="/assets/icons/star-plus-outline.svg" alt="Star" style="width:24px;height:24px" />
-              </button>
-              <button><img src="/assets/icons/eye-plus-outline.svg" alt="Star" style="width:24px;height:24px" />
-              </button>
-              <button><img src="/assets/icons/share-variant-outline.svg" alt="Star"
-                  style="width:24px;height:24px" /></button>
-            </div>
-          </a>
-          <a class="card" href="https://middledcoder.github.io/sign-up-form/" target="_blank">
-            <div class="card-content">
-              <h4>Sign-up Form</h4>
-              <p>This is a responsive sign-up form with validation for user registration.</p>
-            </div>
-            <div class="card-reactions">
-              <button><img src="/assets/icons/star-plus-outline.svg" alt="Star" style="width:24px;height:24px" />
-              </button>
-              <button><img src="/assets/icons/eye-plus-outline.svg" alt="Star" style="width:24px;height:24px" />
-              </button>
-              <button><img src="/assets/icons/share-variant-outline.svg" alt="Star"
-                  style="width:24px;height:24px" /></button>
-            </div>
-          </a>
-          <a class="card" href="https://middledcoder.github.io/admin-dashboard/" target="_blank">
-            <div class="card-content">
-              <h4>Admin Dashboard</h4>
-              <p>This is a basic admin dashboard for practicing Grid and flexbox layouts.</p>
-            </div>
-            <div class="card-reactions">
-              <button><img src="/assets/icons/star-plus-outline.svg" alt="Star" style="width:24px;height:24px" />
-              </button>
-              <button><img src="/assets/icons/eye-plus-outline.svg" alt="Star" style="width:24px;height:24px" />
-              </button>
-              <button><img src="/assets/icons/share-variant-outline.svg" alt="Star"
-                  style="width:24px;height:24px" /></button>
-            </div>
-          </a>
-        </div>
-      </div>
-      <div class="content-announcements">
-        <h3>Announcements</h3>
-        <div class="announcement-list">
-          <div class="announcement-item">
-            <h5>Maintenance Scheduled</h5>
-            <p>We will be performing scheduled maintenance on our servers this weekend. Please expect some downtime.</p>
-          </div>
-          <div class="announcement-item">
-            <h5>New Blog Post</h5>
-            <p>Check out our latest blog post on web development trends in 2024. Stay updated with the latest insights!
-            </p>
-          </div>
-          <div class="announcement-item">
-            <h5>New Feature Released!</h5>
-            <p>We are excited to announce the release of our new feature that will enhance your experience. Check it out
-              now!</p>
           </div>
         </div>
-      </div>
-      <div class="content-trending">
-        <h3>Trending</h3>
-        <div class="trending-users">
-          <div class="user-card">
-            <img src="/assets/avatars/Avatar01.svg" alt="User 1" />
-            <div class="user-info">
-              <h5>@morgan</h5>
-              <p>Top Contributor</p>
+        <div class="content-trending">
+          <h3>Trending</h3>
+          <div class="trending-users">
+            <div class="user-card">
+              <img src="/assets/avatars/Avatar01.svg" alt="User 1" />
+              <div class="user-info">
+                <h5>@morgan</h5>
+                <p>Top Contributor</p>
+              </div>
             </div>
-          </div>
-          <div class="user-card">
-            <img src="/assets/avatars/Avatar02.svg" alt="User 2" />
-            <div class="user-info">
-              <h5>@tegan</h5>
-              <p>Rising Star</p>
+            <div class="user-card">
+              <img src="/assets/avatars/Avatar02.svg" alt="User 2" />
+              <div class="user-info">
+                <h5>@tegan</h5>
+                <p>Rising Star</p>
+              </div>
             </div>
-          </div>
-          <div class="user-card">
-            <img src="/assets/avatars/Avatar03.svg" alt="User 3" />
-            <div class="user-info">
-              <h5>@kendall</h5>
-              <p>Influencer</p>
+            <div class="user-card">
+              <img src="/assets/avatars/Avatar03.svg" alt="User 3" />
+              <div class="user-info">
+                <h5>@kendall</h5>
+                <p>Influencer</p>
+              </div>
             </div>
-          </div>
-          <div class="user-card">
-            <img src="/assets/avatars/Avatar04.svg" alt="User 4" />
-            <div class="user-info">
-              <h5>@alex</h5>
-              <p>Community Leader</p>
+            <div class="user-card">
+              <img src="/assets/avatars/Avatar04.svg" alt="User 4" />
+              <div class="user-info">
+                <h5>@alex</h5>
+                <p>Community Leader</p>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
 </body>
 
 </html>
