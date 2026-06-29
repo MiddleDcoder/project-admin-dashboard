@@ -1,6 +1,7 @@
 # Project Admin Dashboard
 
-Project: Admin Dashboard - The Odin Project (TOP )
+[Project: Admin Dashboard - The Odin Project (TOP)
+](https://middledcoder.github.io/project-admin-dashboard/)
 
 ## Project Design File
 
