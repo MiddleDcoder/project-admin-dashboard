@@ -27,15 +27,11 @@ h4 {
   min-height: 100vh;
 }
 
-.sidebar {
-  grid-row: 1 / 3;
-}
-
 .main-content {
   height: 100%;
   display: grid;
   grid-template-columns: 3fr 1fr;
-  grid-template-rows: auto auto;
+  grid-template-rows: 1fr 1fr;
   grid-template-areas:
     "projects announcements"
     "projects trending";
@@ -170,6 +166,7 @@ img[src="/assets/icons/share-variant-outline.svg"] {
   display: flex;
   flex-direction: column;
   justify-content: start;
+  grid-row: 1 / 3;
   height: 100%;
   padding: 30px;
   box-shadow: var(--box-shadow-default);
@@ -204,6 +201,10 @@ img[src="/assets/icons/share-variant-outline.svg"] {
     grid-template-columns: 1fr;
   }
 
+  .sidebar {
+    height: auto;
+  }
+
   .main-content {
     grid-template-columns: 1fr;
     grid-template-rows: auto auto auto;
@@ -212,6 +213,16 @@ img[src="/assets/icons/share-variant-outline.svg"] {
       "announcements"
       "trending";
   }
+
+  .header div {
+    grid-column: 1 / 3;
+  }
+
+  .notifications {
+    justify-self: start;
+  }
+
+
 }
 
 /* Header */
